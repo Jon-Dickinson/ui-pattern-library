@@ -1,0 +1,54 @@
+.dot-parent {
+    background-color: rgba(255, 255, 255, 0.075) !important;
+    padding: 5px !important;
+}
+
+.swatch {
+    position: relative;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+    margin: 0;
+    z-index: 5;
+}
+
+.swatch-panel {
+    position: relative;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    padding-top: 50px;
+    margin: 0;
+    z-index: 10;
+}
+
+.panel--primary {
+    padding-top: 120px;
+}
+
+.swatch-panel-info {
+    position: relative;
+    z-index: 15;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 11px;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    letter-spacing: 1px;
+}
+
+.swatch-panel-info:hover,
+.swatch-panel-info:focus {
+    background-color: #f8f8f8;
+    color: #545b61;
+}
+
+
