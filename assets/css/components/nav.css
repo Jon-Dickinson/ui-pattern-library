@@ -6,7 +6,6 @@
 	flex-direction: column;
 	width: 100%;
 	max-width: 320px;
-	margin-top: 10px;
 }
 
 .vertical-nav ul {
@@ -51,6 +50,14 @@
 
 .vertical-nav a:focus {
 	outline: none;
+}
+
+.vertical-nav .active {
+	background-color: rgb(101, 31, 255);
+}
+
+.vertical-nav .active span {
+	color: #ffffff;
 }
 
 /* Content */

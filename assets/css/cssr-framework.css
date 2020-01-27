@@ -1,5 +1,5 @@
 :root {
-   --primary-1: #eeeeee;
+   --primary-1: #b0bec5;
    --primary-2: #cfd8dc;
    --primary-3: #9ea7aa;
 
@@ -150,7 +150,7 @@ xmp {
    font-family: 'Roboto Mono';
    font-size: 17px;
    line-height: 20px;
-   color: rgba(0, 0, 0, .94);
+   color: var(--color-default);
    width: 100%;
 }
 
@@ -192,6 +192,10 @@ code {
 
 .color--default {
    color: var(--color-default) !important;
+}
+
+.bg-color--default {
+   background-color: var(--color-default) !important;
 }
 
 .color--primary-3 {
@@ -1330,6 +1334,15 @@ input::-ms-tooltip {}
    utility classes
    ========================================================================== */
 
+.bg-651fff {
+   background-color: #651fff;
+}
+
+.bg-white--opacity-015 {
+   background-color: rgba(255,255,255,0.15)
+}
+
+
 .bg-primary-1 {
    background-color: var(--primary-1);
 }
@@ -2147,11 +2160,30 @@ input::-ms-tooltip {}
    width
    ========================================================= */
 
-/* width */
+   
+/* min-width px */
 
 .width-auto {
    width: auto !important;
 }
+
+.w-10p {
+   width: 10px !important;
+}
+
+.w-20p {
+   width: 20px !important;
+}
+
+.w-40p {
+   width: 40px !important;
+}
+
+.w-80p {
+   width: 80px !important;
+}
+
+/* width % */
 
 .w-25-perc {
    width: 25% !important;
@@ -2220,6 +2252,10 @@ input::-ms-tooltip {}
 }
 
 /* max-width px */
+
+.max-w-60p {
+   max-width: 60px !important;
+}
 
 .max-w-80p {
    max-width: 80px !important;

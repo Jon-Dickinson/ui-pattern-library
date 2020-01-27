@@ -1,0 +1,430 @@
+@font-face {
+    font-family: "cssr";
+    src: url('../../fonts/icons/cssr.eot');
+    src: url('../../fonts/icons/cssr.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/icons/cssr.woff') format('woff'),
+        url('../../fonts/icons/cssr.ttf') format('truetype'),
+        url('../../fonts/icons/cssr.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'social-icons';
+    src: url('../../fonts/icons/social-icons.eot');
+    src: url('../../fonts/icons/social-icons.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/icons/social-icons.ttf') format('truetype'),
+        url('../../fonts/icons/social-icons.woff') format('woff'),
+        url('../../fonts/icons/social-icons.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* =========================================================
+   Material Design icons
+   ========================================================= */
+
+
+
+[class*="icon-box--"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    flex-direction: column;
+}
+
+[class*="md-icon-"]:before {
+    font-family: 'cssr';
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1.895em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="--md-icon"] {
+    position: relative;
+    width: 142px;
+    max-width: 142px;
+    height: 140px;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin: 5px;
+}
+
+[class*="icon-box--"] {
+    cursor: pointer;
+}
+
+[class*="icon-box--"] code {
+    font-family: 'Roboto Mono';
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+[class*="md-icon-"]:before {
+    font-family: 'cssr';
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    line-height: 1;
+    font-size: 1.895em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.md-icon-uniE650:before {
+    content: "\e650";
+}
+
+.md-icon-uniE602:before {
+    content: "\e602";
+}
+
+.md-icon-uniE601:before {
+    content: "\e601";
+}
+
+.md-icon-uniE60f:before {
+    content: "\e60f";
+}
+
+.md-icon-uniE60e:before {
+    content: "\e60e";
+}
+
+.md-icon-uniE620:before {
+    content: "\e620";
+}
+
+.md-icon-uniF0c5:before {
+    content: "\f0c5";
+}
+
+.md-icon-uniEae4:before {
+    content: "\eae4";
+}
+
+.md-icon-uniE651:before {
+    content: "\e651";
+}
+
+.md-icon-uniEa7f:before {
+    content: "\ea7f";
+}
+
+.md-icon-uniE624:before {
+    content: "\e624";
+}
+
+.md-icon-uniE618:before {
+    content: "\e618";
+}
+
+.md-icon-uniE610:before {
+    content: "\e610";
+}
+
+.md-icon-uniE634:before {
+    content: "\e634";
+}
+
+.md-icon-uniE647:before {
+    content: "\e647";
+}
+
+.md-icon-uniE646:before {
+    content: "\e646";
+}
+
+.md-icon-uniE633:before {
+    content: "\e633";
+}
+
+.md-icon-uniE61A:before {
+    content: "\e61a";
+}
+
+.md-icon-uniF064:before {
+    content: "\f064";
+}
+
+.md-icon-uniE61B:before {
+    content: "\e61b";
+}
+
+/* Browsers */
+
+.md-icon-uniEAE5:before {
+    content: "\eae5";
+}
+
+.md-icon-uniEAE9:before {
+    content: "\eae9";
+}
+
+.md-icon-uniEAE6:before {
+    content: "\eae6";
+}
+
+.md-icon-uniEAE8:before {
+    content: "\eae8";
+}
+
+.md-icon-uniEAE7:before {
+    content: "\eae7";
+}
+
+/* Browsers END */
+
+.md-icon-uniE005:before {
+    content: "\e005";
+}
+
+.md-icon-uniE014:before {
+    content: "\e014";
+}
+
+.md-icon-uniE112:before {
+    content: "\e112";
+}
+
+.md-icon-uniE113:before {
+    content: "\e113";
+}
+
+.md-icon-uniE600:before {
+    content: "\e600";
+}
+
+.md-icon-uniE603:before {
+    content: "\e603";
+}
+
+.md-icon-uniE604:before {
+    content: "\e604";
+}
+
+.md-icon-uniE605:before {
+    content: "\e605";
+}
+
+.md-icon-uniE606:before {
+    content: "\e606";
+}
+
+.md-icon-uniE608:before {
+    content: "\e608";
+}
+
+.md-icon-uniE60A:before {
+    content: "\e60a";
+}
+
+.md-icon-uniE60C:before {
+    content: "\e60c";
+}
+
+.md-icon-uniE60D:before {
+    content: "\e60d";
+}
+
+.md-icon-uniE60E:before {
+    content: "\e60e";
+}
+
+.md-icon-uniE60F:before {
+    content: "\e60f";
+}
+
+.md-icon-uniE611:before {
+    content: "\e611";
+}
+
+.md-icon-uniE612:before {
+    content: "\e612";
+}
+
+.md-icon-uniE613:before {
+    content: "\e613";
+}
+
+.md-icon-uniE614:before {
+    content: "\e614";
+}
+
+.md-icon-uniE615:before {
+    content: "\e615";
+}
+
+.md-icon-uniE617:before {
+    content: "\e617";
+}
+
+.md-icon-uniE619:before {
+    content: "\e619";
+}
+
+.md-icon-uniE61C:before {
+    content: "\e61c";
+}
+
+.md-icon-uniE61F:before {
+    content: "\e61f";
+}
+
+.md-icon-uniE621:before {
+    content: "\e621";
+}
+
+.md-icon-uniE622:before {
+    content: "\e622";
+}
+
+.md-icon-uniE623:before {
+    content: "\e623";
+}
+
+.md-icon-uniE626:before {
+    content: "\e626";
+}
+
+.md-icon-uniE630:before {
+    content: "\e630";
+}
+
+.md-icon-uniE631:before {
+    content: "\e631";
+}
+
+.md-icon-uniE635:before {
+    content: "\e635";
+}
+
+.md-icon-uniE63F:before {
+    content: "\e63f";
+}
+
+.md-icon-uniE64F:before {
+    content: "\e64f";
+}
+
+.md-icon-uniE95A:before {
+    content: "\e95a";
+}
+
+.md-icon-uniE9AA:before {
+    content: "\e9aa";
+}
+
+.md-icon-uniEA51:before {
+    content: "\ea51";
+}
+
+.md-icon-uniEA68:before {
+    content: "\ea68";
+}
+
+.md-icon-uniEA6E:before {
+    content: "\ea6e";
+}
+
+.md-icon-uniEA71:before {
+    content: "\ea71";
+}
+
+.md-icon-uniEA72:before {
+    content: "\ea72";
+}
+
+.md-icon-uniEAB2:before {
+    content: "\eab2";
+}
+
+.md-icon-uniEAD9:before {
+    content: "\ead9";
+}
+
+.md-icon-uniF00D:before {
+    content: "\f00d";
+}
+
+.md-icon-uniF066:before {
+    content: "\f066";
+}
+
+.md-icon-uniF067:before {
+    content: "\f067";
+}
+
+[class*="social-icon-"]:before {
+    font-family: 'social-icons';
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1.895em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social-icon-gplus:before {
+    content: "\e900";
+}
+
+.social-icon-facebook:before {
+    content: "\e901";
+}
+
+.social-icon-twitter:before {
+    content: "\e902";
+}
+
+.social-icon-feed:before {
+    content: "\e903";
+}
+
+.social-icon-flickr:before {
+    content: "\e904";
+}
+
+.social-icon-picassa:before {
+    content: "\e905";
+}
+
+.social-icon-dribbble:before {
+    content: "\e906";
+}
+
+.social-icon-github:before {
+    content: "\e907";
+}
+
+.social-icon-wordpress:before {
+    content: "\e908";
+}
+
+.social-icon-apple:before {
+    content: "\e909";
+}
+
+.social-icon-android:before {
+    content: "\e90a";
+}
+
+.social-icon-windows8:before {
+    content: "\e90b";
+}
+
+.social-icon-linkedin:before {
+    content: "\e90c";
+}

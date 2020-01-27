@@ -1,0 +1,49 @@
+.dot-parent {
+    padding: 5px 0 !important;
+}
+
+.dot {
+    position: relative;
+    display: flex;
+    width: 18px;
+    max-width: 18px;
+    height: 18px;
+    max-height: 18px;
+    min-height: 18px;
+    border-radius: 50%;
+    background-color: var(--color-default);
+}
+
+.block {
+    position: relative;
+    z-index: 100;
+    display: inline-flex;
+    width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    background-color: var(--color-default);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.block > .block {
+    background-color: #651fff;
+}
+
+[class*="block--no-style"] {
+    background-color: rgba(255,255,255,0);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    .dot {
+        width: 12px;
+        max-width: 12px;
+        height: 12px;
+        max-height: 12px;
+        min-height: 12px;
+    }
+
+}
