@@ -2,8 +2,12 @@
    elements that require additional base styling
    ========================================================================== */
 
+p {
+    margin-bottom: 5px;
+}   
+
 h1, h2, h3, h4 {
-    margin-bottom: 0 !important;
+    margin: 0 !important;
 }  
 
 button,
@@ -37,9 +41,17 @@ ol {
     margin-left: 0;
 }
 
+ol {
+    padding-left: 25px;
+}
+
+ol li {
+    padding-left: 10px;
+}
+
 ul li,
 ol li {
-    line-height: 2;
+    line-height: 1.5;
 }
 
 small {

@@ -14,7 +14,26 @@
     background-color: var(--color-default);
 }
 
-.block {
+.b-block {
+    position: relative;
+    z-index: 100;
+    float: left;
+    min-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ib-block {
+    position: relative;
+    z-index: 100;
+    display: inline-block;
+    float: left;
+    min-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.if-block {
     position: relative;
     z-index: 100;
     display: inline-flex;
@@ -24,10 +43,6 @@
     background-color: var(--color-default);
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.block > .block {
-    background-color: #651fff;
 }
 
 [class*="block--no-style"] {
